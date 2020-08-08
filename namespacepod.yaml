@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1 
+metadata: 
+  name: nextpod
+spec:
+  containers:
+  - name: containers1
+    image: aamirpinger/helloworld:latest
+    ports:
+    - containerPort: 80 

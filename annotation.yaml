@@ -1,0 +1,13 @@
+kind: Pod 
+apiVersion: v1 
+metadata:
+  name: podannotation
+  annotations: 
+    createdBy: "Umar Hassan Malik" 
+    email: "umarhassanmalik10@gmail.com"
+spec:
+  containers:
+  - name: container-new
+    image: aamirpinger/helloworld:latest
+    ports:
+    - containerPort: 80 
