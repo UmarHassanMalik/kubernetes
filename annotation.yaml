@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: container-new
-    image: aamirpinger/helloworld:latest
+    image: umarhassanmalik/webapp
     ports:
     - containerPort: 80 
