@@ -8,7 +8,7 @@ spec:
     typeofharddisk: ssd
   containers:
   - name: container1 
-    image: aamirpinger/flag:latest
+    image: umarhassanmalik/webapp
     ports: 
     - containerPort: 80
 
