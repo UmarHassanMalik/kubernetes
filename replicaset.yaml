@@ -3,7 +3,7 @@ apiVersion: apps/v1
 metadata: 
   name: myreplicaset 
 spec: 
-  replicas: 3 
+  replicas: 5 
   selector: 
    matchLabels:
      app: replicas
