@@ -4,7 +4,7 @@ metadata:
   name: nextpod
 spec:
   containers:
-  - name: containers1
-    image: aamirpinger/helloworld:latest
+  - name: cont1
+    image: umarhassanmalik/webapp
     ports:
     - containerPort: 80 
