@@ -5,7 +5,7 @@ metadata:
   name: podwithnodeselector
 spec:
   nodeSelector: 
-    typeofharddisk: ssd
+    typeofharddisk: solid state disk
   containers:
   - name: container1 
     image: umarhassanmalik/webapp
