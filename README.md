@@ -1,3 +1,6 @@
 - Job
 - Replicasets
 - Pods
+- Annotation
+- Node Selector
+- namespace
