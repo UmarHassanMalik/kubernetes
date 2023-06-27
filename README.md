@@ -1,1 +1,3 @@
-# kubernetes
+- Job
+- Replicasets
+- Pods
